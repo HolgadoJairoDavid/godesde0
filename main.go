@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/HolgadoJairoDavid/godesde0/teclado"
+	"github.com/HolgadoJairoDavid/godesde0/ejercicios"
 )
 
 func main() {
@@ -22,5 +22,7 @@ func main() {
 	} */
 	// number, text := ejercicios.PrimerEjercicio("56")
 	// fmt.Println(number, text)
-	teclado.IngresoNumeros()
+	// teclado.IngresoNumeros()
+	// iteraciones.Iterar()
+	ejercicios.TablaDeMultiplicar()
 }
