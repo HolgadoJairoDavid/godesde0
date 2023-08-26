@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/HolgadoJairoDavid/godesde0/users"
+	"github.com/HolgadoJairoDavid/godesde0/defer_panic"
 )
 
 func main() {
@@ -36,5 +36,11 @@ func main() {
 	// arreglos_slices.MuestroSlices()
 	// arreglos_slices.Capacidad()
 	// mapas.MostrarMapas()
-	users.AltaUsuario()
+	// users.AltaUsuario()
+	// Pedro := new(modelos.Hombre)
+	// e.HumanoRespirando(Pedro)
+
+	// Maria := new(modelos.Mujer)
+	// e.HumanoRespirando(Maria)
+	defer_panic.VemosDefer()
 }
