@@ -1,5 +1,9 @@
 package main
 
+import (
+	"github.com/HolgadoJairoDavid/godesde0/middleware"
+)
+
 func main() {
 	/* estado, texto := variables.ConviertoATexto(15)
 	fmt.Println(estado, texto)
@@ -40,6 +44,8 @@ func main() {
 	// e.HumanoRespirando(Maria)
 	// defer_panic.VemosDefer()
 	// go goroutines.MiNombreLento("Jairo")
-	canal1 := make(chan bool)
-	<-canal1
+	// canal1 := make(chan bool)
+	// <-canal1
+	// webserver.MiWebServer()
+	middleware.MiMiddleware()
 }
